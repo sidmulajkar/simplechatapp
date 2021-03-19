@@ -33,7 +33,7 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>Chat Out Here! ⚛️🔥💬</h1>
         <SignOut />
       </header>
 
@@ -55,7 +55,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not use for any other purpose than for project!</p>
+      <p>Do not use for any other purpose than project!</p>
     </>
   )
 }
